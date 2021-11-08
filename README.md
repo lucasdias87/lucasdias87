@@ -2,7 +2,7 @@
 
 - 😁  ola eu sou o LUCAS DIAS
 - 🔭  Hoje trabalho com front-end 
-- 🌱  Estudando sistemas pa Internet 
+- 🌱  Estudando sistemas para Internet 
 
 <div align="center">
   <a href="https://github.com/lucasdias87">
