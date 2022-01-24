@@ -17,6 +17,7 @@
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://github.com/lucasdias87/lucasdias87/blob/main/icons-dev/css3.svg">
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://github.com/lucasdias87/lucasdias87/blob/main/icons-dev/bootstrap.svg">
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://github.com/lucasdias87/lucasdias87/blob/main/icons-dev/bash.svg">
+   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://github.com/lucasdias87/lucasdias87/blob/main/icons-dev/javascript.svg">
   </div>
  
    
