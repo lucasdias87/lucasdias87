@@ -39,7 +39,7 @@ background-position: center;
 
 .img2{
    width: 30%;
-    height: auto;
+  
     border: 1px solid #fff467;
     display: inline-block;
     
@@ -48,7 +48,7 @@ background-position: center;
 .img3{
 
    width: 40%;
-    height: auto;
+   
    
    
 
@@ -56,7 +56,7 @@ background-position: center;
  .img4{
 
    width: 48%;
-    height: auto;
+   
    
 
  }
