@@ -29,16 +29,17 @@ background-position: center;
 }
 
  .img-foto{
-  width: 10%;
-   height: auto;
+  width: 30%;
+  height: auto;
+   
  
-   border-radius: 80%;
+   border-radius: 50%;
   
 }
 
 
 .img2{
-   width: 30%;
+   width: 45%;
   
     border: 1px solid #fff467;
     display: inline-block;
@@ -189,7 +190,7 @@ button{
 }
 
 button:hover{
-   background: url(/img/pixel.jpeg) ;
+   background: url(/img/code.png) ;
   background-size: 100%;
   color: #fff467;
   box-shadow:  0 0 1em gold;
