@@ -1,7 +1,6 @@
 
 
 - 😁  ola eu sou o LUCAS DIAS
-- 🔭  Hoje trabalho com front-end 
 - 🌱  Estudando sistemas para Internet 
 
 <div align="center">
