@@ -86,16 +86,18 @@ background-position: center;
 nav{
    
    
-  
+   
    background-image: url(/img/IMEPAC-EAD-tecnologia-em-analise-e-desenvolvimento-de-sistemas.jpeg);
    font-size: large;
+  
    border: solid #20232a;
    font-family: 'ubuntu', sans-serif;
    background-repeat: no-repeat;
    letter-spacing: 10px;
   
-   position: relative;
-  
+   position: -webkit-sticky; /* Necessário para funcionar no Safari */
+   position:  sticky; /* Este é o sufixo correto */
+   top: 0;
    
    
    
@@ -111,7 +113,7 @@ nav a::after{
    position: absolute;
    bottom:  0;
    left: 0;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s;
 }
 
 nav a:hover::after{
