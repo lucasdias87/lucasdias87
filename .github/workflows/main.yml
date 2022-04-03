@@ -1,3 +1,5 @@
+
+
 name: Generate Datas
 
 on:
@@ -24,7 +26,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 © 2022 GitHub, Inc.
-Terms
-Privacy
-Security
 
