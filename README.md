@@ -1,7 +1,7 @@
 
 
 - 😁  ola eu sou o LUCAS DIAS
-- 🌱  Estudando sistemas para Internet 
+- 🌱  Estudando Sistemas para Internet 
 
 <div align="center">
   <a href="https://github.com/lucasdias87">
