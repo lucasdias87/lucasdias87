@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Ubuntu+Mono:ital@0;1&display=swap');
 
+@media screen and (max-width: 750px) {
+
+
+   .img2 {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      -moz-transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+   }
+   img2:hover{
+      -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  }
+
+  
+  }
+
+   
+
+
 
 
 html{
@@ -162,7 +185,7 @@ h4 {
    text-decoration: none;
    color: #fff467;
    padding: 1% 2%;
-  
+  margin: 0,0,10px,10px;
 
  
    
