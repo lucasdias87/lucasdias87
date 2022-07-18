@@ -11,6 +11,7 @@
      -webkit-transition: all 0.5s;
      transition: all 0.5s;
    }
+}
    img2:hover{
       -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
@@ -18,7 +19,7 @@
   }
 
   
-  }
+  
 
    
 
@@ -28,27 +29,35 @@
 html{
    scroll-behavior: smooth;
   
-    
+
 }
+
 body{
 margin: 1%;
 padding: 0%;
 font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu Mono', monospace;
-
 background-color: #20232a;
+
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 
 }
-
+  
 
 
 .img-redes{
    width: 60px;
    height: auto;
    border-radius: 80%;
+}
+.img-redes:hover{
+   -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow: #fff467 0px 0px 20px;
+ 
 }
 
  .img-foto{
@@ -67,6 +76,17 @@ background-position: center;
     border: 1px solid #fff467;
     display: inline-block;
     
+}
+.img2:hover{
+   -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  box-shadow: #fff467 0px 0px 20px;
+ 
+   
+ 
+ 
+ 
 }
 
 .img3{
@@ -144,9 +164,10 @@ nav a::after{
 nav a:hover::after{
    width: 100%;
    background-color: #fff467;
-  
+   
+ 
 }
-
+  
 
 
 .center {
@@ -172,11 +193,14 @@ h2{
    color: #fff467;
    letter-spacing: 4px;
 }
+
 h3{
    text-transform: uppercase;
    color: #fff467;
    letter-spacing: 4px;
+   cursor: default;
 }
+
 h4 {
    text-transform: uppercase;
    color: #ffffff;
@@ -204,7 +228,17 @@ a{
    transition: .5s ease-in-out;
    
 }
-
+input,textarea{
+   border: 1px solid #ffffff;
+   border-radius: 5px;
+   background-color: transparent;
+   padding: 1%;
+   width: 80%;
+   color: #fff467;
+   font-size: large;
+   font-family: 'ubuntu', sans-serif;
+   transition: .5s ease-in-out;
+}
 
  
 
@@ -232,10 +266,6 @@ button{
 }
 
 button:hover{
-   background: url(/img/code.png) ;
-  background-size: 100%;
-  color: #fff467;
-  box-shadow:  0 0 1em gold;
   transition-delay: 0.8s;
   animation: animate1 0.8s steps(10) forwards;
  
@@ -243,8 +273,11 @@ button:hover{
 @keyframes animate1{
    0%{
      background-position-y: 0;
+     color:blue;
    }
    100%{
      background-position-y: -480px;
+       color: #20232a;
+       background-color: #fff467;
    }
  }
