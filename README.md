@@ -3,6 +3,8 @@
 - 😁  ola eu sou o LUCAS DIAS
 - 🌱  Estudando Sistemas para Internet 
 - 🐧  SOU UM DESENVOLVEDOR DE SOFTWARE AMANTE DO OPEN SOURCE E DE LINUX, ATUALMENTE CURSANDO SISTEMAS PARA INTERNET COM UMA PAIXÃO POR CONSTRUIR SITES ACESSÍVEIS E RESPONSIVOS
+### [Portifolio](https://lucasdias.netlify.app)
+
 
 <div align="center">
   <a href="https://github.com/lucasdias87">
