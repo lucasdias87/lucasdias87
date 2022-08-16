@@ -19,7 +19,6 @@
   }
 
 }
-  
 
    
 
@@ -68,7 +67,6 @@ background-position: center;
    margin: 20px;
 }
 .linguagens{
-   background-image: url(/img/download.png);
    background-repeat: no-repeat;
    background-position: center;
    
@@ -81,6 +79,48 @@ background-position: center;
   
  
    border-radius: 50%;
+  
+
+}
+#btndark{
+   background-color: gray;
+   float : right;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 10px;
+   
+  
+
+
+
+ 
+}
+#btndark:hover{
+  
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
+  
+}
+#btnlyth{
+background-color: rgb(247, 173, 226);
+float : left;
+border: none;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+ 
+
+}
+#btnlyth:hover{
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
   
 }
 
@@ -261,7 +301,8 @@ button{
  text-decoration: none;
  position: center;
  border: 1px solid #fff467;
- 
+ background-color: #ffffff;
+  
   
 
   font-family: 'ubuntu', sans-serif;
@@ -279,7 +320,7 @@ button{
 }
 
 button:hover{
-  color: #0f1523;
+  color: #ffffff;
  background-color: #fff467;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
