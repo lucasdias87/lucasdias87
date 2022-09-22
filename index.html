@@ -13,8 +13,9 @@
 <body>
    
     <nav class=" center">
-      
-        <ul>
+      <img id="menu" src="/img/menu_FILL0_wght400_GRAD0_opsz48.png" onclick="clicMenu()">
+   
+        <ul id="itens">
           
             <li>
                 <a href="#quem">Quem sou</a>
@@ -26,14 +27,11 @@
                 <a href="#contatos">contatos</a>
             </li>
         </ul>
-       
-          <i class="fas fa-moon"  id="btndark" onclick="darkm()"></i>
-          <i class="fas fa-sun"  id="btnlyth" onclick="lyth()"></i>
-       
-      <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+     
+        
     </nav>
    
-    </div>
+    </div id="top">
         
        <br>
        <br>
@@ -57,11 +55,10 @@
               
                 <br>
               
-                
-            <button onclick="window.location.href = 'https://www.linkedin.com/in/lucas-dias-352810162/'" >Linkedin</button>
+          
           
             
-            <button onclick="window.location.href='https://github.com/lucasdias87'">Github</button>
+          
             
             <br>    
             <br>
@@ -96,23 +93,25 @@
             <br>
             
           </div>
-            <br>
-            <br>
-          <div class="center">
             
-            <h2 id="projetos" >Projetos</h2>
+          <div class="projetos">
+            <br>    
+            <br>
+            <br>  
+            <h2>Projetos</h2>
             <h4>DailyStories app para controle emocional
              App de TCC do curso Tec em Informatica</h4>
            <img src="https://img.shields.io/github/license/lucasdias87/DailyStories?style=for-the-badge" alt="Licença">
            <br>
            <a href=" https://github.com/lucasdias87/DailyStories/raw/main/DailyStories.apk">
             <img class="img2" src="/img/daily2.png" alt="DailyStories"/></a>
+          
             <br>
             <h4>Site de tempo e temperatura
                 </h4>
                 <img src="https://img.shields.io/github/license/lucasdias87/Tempo-e-Temperatura-com-openweather?style=for-the-badge" alt="Licença">
                 <br>
-                <a href="https://github.com/lucasdias87/Tempo-e-Temperatura-com-openweather ">
+                <a href="https://lucasdias87.github.io/Tempo-e-Temperatura-com-openweather/ ">
                  <img class="img2" src="/img/simplescreenrecorder-2022-03-22_00.11.00.gif" alt="jogo-da-velha"/></a>
                <br>-
                <h4>IMC ÍNDICE DE MASSA CORPORAL
@@ -183,9 +182,12 @@
                 <br>
                 <input type="hidden" name="_next" value="https://lucasdias.netlify.app/thanks.html">
                 <br>
-               <button id="submit-form">Enviar</button>
+               <button  id="submit-form">Enviar</button>
                <button type="reset" >Limpar</button>
             </form>
+          </div>
+        </body>
+            <footer class="center">
             <br id="contatos">
         <i class=" "  onclick="window.location.href='https://api.whatsapp.com/send?phone=5513988114770'">
         <img class=" img-redes"  src="/img/whatsapp.png" alt=""></i>
@@ -195,10 +197,11 @@
         <img class=" img-redes"  src="/img/linkedin.png" alt=""></i>
         <i class=" "  onclick="window.location.href='https://github.com/lucasdias87'">
         <img class=" img-redes"  src="/img/github.png" alt=""></i>
-
+      
         <h4>&copy; 2022 LucasDias</h4>
-
-    </div>
+        <img id="menu" src="/img/expand_less_FILL0_wght400_GRAD0_opsz48.png"  onclick="window.location.href='#top'">
+      </footer>
+   
   
-</body>
+
 </html>
