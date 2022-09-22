@@ -14,60 +14,27 @@
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   }
-
+  ul{
+   display: none;
+}
 }
 
    
-.fa-moon {
-   color: #f1c40f;
- }
- 
- .fa-sun {
-   color: #f39c12;
- }
 
- .checkbox {
-   opacity: 0;
-   position: absolute;
- }
- 
- .label {
-   background-color: #111;
-   border-radius: 50px;
+#menu{
+   color: #ffffff;
+   background-color: #fff467;
+   float:right;
+   width: 3rem;
+   margin-right: 1%;
+   border-radius: 15%;
+}
+
+ #menu:hover{
+   background-color: #ffffff;
+   color: #fff467;
+  
    cursor: pointer;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- 
-   padding: 5px;
-   position: relative;
-   height: 26px;
-   width: 50px;
-   transform: scale(1.5);
- 
- }
- 
- 
- .label .ball {
-   background-color: #fff;
-   border-radius: 50%;
-   position: absolute;
-   top: 2px;
-   left: 2px;
-   height: 22px;
-   width: 22px;
-   transform: translateX(0px);
-   transition: transform 0.2s linear;
- }
- 
- 
- 
- .fa-moon {
-   color: #f1c40f;
- }
- 
- .fa-sun {
-   color: #f39c12;
  }
  
 html{
@@ -89,19 +56,23 @@ background-position: center;
 
 }
   
-
+.projetos{
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   
+   text-align:center ;
+  background-image: url(/img/IMEPAC-EAD-tecnologia-em-analise-e-desenvolvimento-de-sistemas.jpeg);
+  background-position: center ;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 .img-redes{
    width: 60px;
    height: auto;
    border-radius: 80%;
 }
-.img-redes:hover{
-   
-  transform: scale(1.2);
-  box-shadow: #fff467 0px 0px 4px;
- background-color: #ffffff;
-}
+
 
 .icones{
    width: 10%;
@@ -120,63 +91,22 @@ background-position: center;
  .img-foto{
   width: 25%;
   height: auto;
-  
-  
+ 
  
    border-radius: 50%;
   
 
 }
-#btndark{
-  
-   float : right;
-   border: none;
-   border-radius: 5px;
-   padding: 10px;
-   margin: 10px;
-   
-  
 
 
-
- 
-}
-#btndark:hover{
-  
-   border: none;
-   border-radius: 10px;
-   padding: 10px;
-   margin: 10px;
-   cursor: pointer;
-  
-}
-#btnlyth{
-
-float : left;
-border: none;
-border-radius: 5px;
-padding: 10px;
-margin: 10px;
- 
-
-}
-#btnlyth:hover{
-   border: none;
-   border-radius: 10px;
-   padding: 10px;
-   margin: 10px;
-   cursor: pointer;
-  
-}
 
 
 
 
 .img2{
-   width: 45%;
+   width: 35%;
   
-    border: 1px solid #fff467;
-    display: inline-block;
+  
     
 }
 
@@ -185,6 +115,7 @@ margin: 10px;
 
    width: 50%;
    
+
    
    
 
@@ -270,7 +201,10 @@ nav a:hover::after{
    
  }
 
- 
+ footer{
+   
+   background-color: transparent;
+ }
 
 
 h1{
@@ -297,28 +231,15 @@ h3{
 
 h4 {
    text-transform: uppercase;
-   color: #c87271;
+   color: #ffffff;
    letter-spacing: 4px; 
   
    
 
 }
 
-.social-media a{
-   text-decoration: none;
-   color: #fff467;
-   padding: 1% 2%;
-  margin: 0,0,10px,10px;
-
- 
-   
-   overflow: hidden;
-   transform: scaleX(2);
-   transform-origin: top left;
-   transition:  transform 250ms ease-in;
 
 
-}
 a{
    text-decoration: none;
    color: #fff467;
@@ -345,8 +266,7 @@ button{
  justify-content: center;
  text-decoration: none;
  position: center;
- border: 1px solid #fff467;
- background-color: #ffffff;
+ background-color: #4d4d4d;
   
   
 
@@ -355,7 +275,8 @@ button{
   line-height: 28px;
   font-weight: 300;
   
-  color: #0f1523;
+  color: #ffffff;
+  text-align: center;
   
 
   text-decoration: none;
@@ -365,12 +286,8 @@ button{
 }
 
 button:hover{
-  color: #ffffff;
- background-color: #fff467;
+  color: #4d4d4d;
+ background-color: #ffffff;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-button:active{
-  color: #fff467;
- background-color: #20232a;
-box-shadow: #fff467 0px 5px 4px;
-}
+
