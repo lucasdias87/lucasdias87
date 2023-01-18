@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Ubuntu+Mono:ital@0;1&display=swap');
 
-@media screen and (max-width: 750px) {
+
+ul{
+   display: none;
+}
+@media screen and (min-width: 750px) {
 
 
    .img2 {
@@ -15,6 +19,9 @@
   transform: scale(1.2);
   }
   ul{
+   display: block;
+}
+#menu{
    display: none;
 }
 }
