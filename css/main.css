@@ -11,7 +11,7 @@ body {
 }
 
 .img-foto {
-    width: 20%;
+    width: 30%;
     height: auto;
     margin: 30px;
 
@@ -67,10 +67,7 @@ html {
     padding: 20px;
 }
 
-h3 {
-    color: aliceblue;
-}
-h2 {
+h2,h3 {
     color: aliceblue;
 }
 
