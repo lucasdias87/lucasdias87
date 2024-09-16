@@ -62,7 +62,7 @@ html {
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2%; /* Espaçamento entre os cards */
+    gap: 20px; /* Espaçamento entre os cards */
     justify-content: center;
     padding: 20px;
 }
