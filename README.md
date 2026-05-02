@@ -37,14 +37,6 @@ Desenvolvedor de Software e entusiasta do ecossistema **Open Source** e **Linux*
 
 ---
 
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=lucasdias87&show_icons=true&theme=shades-of-purple&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdias87&layout=compact&langs_count=7&theme=shades-of-purple"/>
-</div>
-
----
 
 ### 🌐 Conecte-se Comigo
 
@@ -60,9 +52,6 @@ Desenvolvedor de Software e entusiasta do ecossistema **Open Source** e **Linux*
   </a>
   <a href="https://discord.gg/cvuzrPD" target="_blank">
     <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
-  </a>
-  <a href="https://www.twitch.tv/sociedadepinguim" target="_blank">
-    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white">
   </a>
 </div>
 
