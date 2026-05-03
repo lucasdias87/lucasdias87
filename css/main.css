@@ -179,10 +179,11 @@ h2, h3 {
 }
 
 .contatos img {
+    color: aliceblue;
     width: 35px;
     margin: 0 15px;
     transition: 0.3s;
-    filter: invert(1) brightness(0.8); /* Ajuste para ícones ficarem claros */
+    
 }
 
 .contatos img:hover {
@@ -200,5 +201,12 @@ h2, h3 {
     
     .nav-list li {
         margin: 0 10px;
+    }
+    img{
+    
+        max-width: 100%; 
+        height: auto;
+    
+
     }
 }
